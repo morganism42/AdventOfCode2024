@@ -1,5 +1,3 @@
-from traceback import print_tb
-
 from aocd import get_data, submit
 
 data = get_data(day=1, year=2024)
