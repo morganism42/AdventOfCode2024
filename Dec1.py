@@ -28,9 +28,9 @@ for i in range(len(list1)):
 #submit(sum(distances), part='a', day=1, year=2024)
 fullscore = 0
 for i in list1:
-	score=0
+	score = 0
 	for j in list2:
 		if i == j:
-			score+=1
-	fullscore += score*int(i)
+			score += 1
+	fullscore += score * int(i)
 #submit(fullscore, part='b', day=1, year=2024)
